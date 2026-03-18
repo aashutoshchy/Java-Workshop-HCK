@@ -9,6 +9,12 @@ public class que4 {
         System.out.print("Enter your age: ");
         age = scanner.nextInt();
 
+        if (age < 18) {
+            System.out.println("You are Young.");
+        } else {
+            System.out.println("You are Adult.");
+        }
+
         scanner.close();
 
     }

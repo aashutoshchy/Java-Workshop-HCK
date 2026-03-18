@@ -23,5 +23,8 @@ public class que8 {
         computer = scanner.nextDouble();
 
         percentage = ((physics + chemistry + biology + math + computer) / 500) * 100;
+        System.out.printf("Your total percentage is %.2f", percentage);
+
+        scanner.close();
     }
 }
